@@ -56,11 +56,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     marginLeft: 10,
     fontSize: 20,
-    // color:'#fff'
+     color:'#fff'
   },
   Vote: {
     flex: 1,
-    flexDirection: 'row'
+    flexDirection: 'row',
+    color:'#fff'
   },
   Description: {
     flex: 4,
@@ -68,12 +69,13 @@ const styles = StyleSheet.create({
   },
   description_text: {
     fontStyle: 'italic',
-    color: '#666666'
+    color: '#fff'
   },
   Sorti: {
     flex: 1,
     alignItems: 'flex-end',
-    marginRight: 10
+    marginRight: 10,
+    color: 'green'
   },
   Image: {
     height: 190,
